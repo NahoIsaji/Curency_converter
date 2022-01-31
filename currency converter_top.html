@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Currency converter</title>
+<link rel ="stylesheet" href="currency converter_top.css">
+
+
+
+</head>
+
+<body>
+    <div>
+    <form method="POST" action="currency converter.php">
+        <fieldset>
+            <p class="p">Converting from: </p>
+                <input type="radio" name="from" value="CND"><img src="flag-canada.png">Canadian dollar
+                <input type="radio" name="from" value="USD"><img src="flag-usa.png">American dollar
+                <input type="radio" name="from" value="EUR"><img src="flag-eu.png">Euro
+                <input type="radio" name="from" value="GBP"><img src="flag-uk.png">British pound
+                <input type="radio" name="from" value="CNY"><img src="flag-china.png">Chinese Yuan			  
+            <p><input type="text" name="num" class="input" required></p>
+            <br>
+            <p class="p">Converting into: </p>
+                <input type="radio" name="into" value="tCND"><img src="flag-canada.png">Canadian Dollar
+                <input type="radio" name="into" value="tUSD"><img src="flag-usa.png">American Dollar
+                <input type="radio" name="into" value="tEUR"><img src="flag-eu.png">Euro
+                <input type="radio" name="into" value="tGBP"><img src="flag-uk.png">British pound
+                <input type="radio" name="into" value="tCNY"><img src="flag-china.png">Chinese Yuan
+                <br>
+            <p><input type="submit" class="button" value="Convert">&nbsp;<input type="reset" class="button" value="Reset"></p>
+        </fieldset>	
+    </form>
+    </div>	
+</body>
+</html>
+
+

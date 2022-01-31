@@ -1,0 +1,49 @@
+    *{
+        font-family: arial black;
+    }
+    
+    body{
+        display: inline-block;
+        text-align: center;
+        padding: 40px 60px;
+        border-color: black;
+        border-radius: 30px;
+    }
+    
+
+fieldset{
+    display: inline-block;
+    text-align: center;
+    padding: 40px 60px;
+    border-color: black;
+    border-radius: 100px;
+}
+
+
+p{
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.button{
+    margin: 50px 0px 30px 30px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #3C3C3B;
+    border-style: none;	
+    border-radius: 30px;
+}
+
+
+.input{
+    border: solid;
+    text-align: center;
+    font-size: 30px;
+    width: 40%;
+}
+    
+.p{
+    text-align: left;
+}    
+    
